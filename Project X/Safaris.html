@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Our Destinations</title>
+    <style>
+        .destination-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            background-color: cornsilk;
+            border-radius: 10px;
+        }
+
+        .destination-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .destination-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .destination-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .destination-card-content {
+            padding: 15px;
+        }
+
+        .destination-card-content h3 {
+            margin-bottom: 8px;
+        }
+
+        .popular-destinations h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .all-destinations h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section class="popular-destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="Images/Masai Mara.png" alt="Masai Mara">
+                <div class="destination-card-content">
+                    <h3>Masai Mara, Kenya</h3>
+                    <p>Masai Mara National Reserve is a land of Breath-taking vistas, abundant wildlife and endless plains.The reserve is a photographer's and naturalist's paradise with abundant elephant,Buffalo,Girrafes, lions and cheeteah alongside migration of wildebeests.</p>
+                    <hr>
+                    <p class="car-price">Ksh. 62,300.00___3 Days, 2 Nights (Private)</p>
+                
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="Images/Amboseli.png" alt="Amboseli Park">
+                <div class="destination-card-content">
+                    <h3>Amboseli Park</h3>
+                    <p>Located four hour drive of Nairobi, it is well known for it's herds of tusked elephants and overlooking Mt.Kilimanjaro. It is open throughout the year but wildlife watching is in the Dry Season(June - October) where they gather marshes and other predicatble water points.</p>
+                    <hr>
+                    <p class="car-price">Ksh. 44,600.00 </p>
+                </div>
+            </div>
+
+             <div class="destination-card">
+                <img src="Images/Lake Nakuru.png" alt="Lake Nakuru">
+                <div class="destination-card-content">
+                    <h3>Lake Nakuru</h3>
+                    <p>Tarnquil wildlife Santuary within the great rift valley featuring diverse species like Rhinos and Flamingos amid serene landscape and birdwatching havens. This can all be witnessed through game drives. Boat-riding,hiking and biking tours can also be experienced.</p>
+                    <hr>
+                    <p class="car-price">Ksh. 24,000.00___4 Days, 3 Nights </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="all-destinations">
+        <h2>All Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="Images/Nairobi Park.png" alt="Nairobi National Park">
+                <div class="destination-card-content">
+                    <h3>Nairobi National Park</h3>
+                    <p>Wildlife Santuary adjacent to urban skyline with sightings of rhinos, Lions and Girrafes. Hosts a rhinoceros conservation program and provides a condusive safri experience</p>
+                    <hr>
+                    <p class="car-price">Ksh. 2,500.00 / day</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="Images/Hell gate.png" alt="Hell's Gate">
+                <div class="destination-card-content">
+                    <h3>Hell's Gate, Nakuru</h3>
+                    <p>National Park with biking, hiking, rock climbing, and thermal spas amids</p>t stunning geological wonders and diverse wildlife. Enjoy a day of natural exploration and relaxation.</p>
+                    <hr>
+                    <p class="car-price">Ksh. 4,000.00___2 Days, 1 Night</p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="Images/Karura Forest.png" alt="Karura Forest">
+                <div class="destination-card-content">
+                    <h3>Karura Forest</h3>
+                    <p>Tarnquil forest with diverse trails for cycling, walking and birdwatching, featuring caves, waterfalls an scenic sports amidst a bio-diverse landscape</p>
+                    <hr>
+                    <p class="car-price">Ksh. 4,000.00 </p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="Images/Haller Park.jpg" alt="Haller Park">
+                <div class="destination-card-content">
+                    <h3>Haller Park</h3>
+                    <p>Interactive wildlife encounters in a natural setting with trails featuring Girrafe feeding, a crocodile section and educational tours </p>
+                    <hr>
+                    <p class="car-price">Ksh. 20,000.00 </p>
+                </div>
+            </div>
+
+            <div class="destination-card">
+                <img src="Images/Mombasa Beach.png" alt="Mombasa Beach">
+                <div class="destination-card-content">
+                    <h3>Mombasa Beach</h3>
+                    <p>This is one of the scenes in Kenya with hotels that offers great views of the beach. There is also pre-historical site such as the Fort Jesus and Many more. Experience the unique yet diverse culture in Kenya</p>
+                    <hr>
+                    <p class="car-price">Ksh. 21,000.00 / day</p>
+                </div>
+            </div>
+            </div>
+    </section>
+
+</body>
+</html>
